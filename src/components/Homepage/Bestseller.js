@@ -17,12 +17,12 @@ const Bestseller = ({ price, name, description, imgs, sub_image, producData }) =
           src={`https://educase.xyz/sub_images/${sub_image
             .split(",")[1]?.replace(/"/g, "")}`}
           alt=""
-          className="w-[175px] h-[263px] object-cover mx-auto mix-blend-darken"
+          className="object-cover mx-auto mix-blend-darken"
         />
         <FiCamera className="absolute bottom-3 left-3" />
       </div>
       <div className="mt-3">
-        <h2 className="text-[14px] leading-5 font-medium text-center overflow-hidden w-[190px] mx-auto">
+        <h2 className="text-[14px] leading-5 font-medium text-center overflow-hidden max-w-[190px] px-[20px] mx-auto">
           {name}
         </h2>
         {/* <h2 className="text-[14px] leading-5 font-normal text-center h-[140px] overflow-hidden px-4">

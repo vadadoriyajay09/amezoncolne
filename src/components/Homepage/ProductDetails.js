@@ -68,7 +68,7 @@ const ProductDetails = () => {
                   <img
                     src={`https://educase.xyz/sub_images/${item}`}
                     alt={`subproduct-${index}`}
-                    className="w-[100px] h-[100px] object-fill"
+                    className="object-fill"
                   />
                 </div>
               </div>
