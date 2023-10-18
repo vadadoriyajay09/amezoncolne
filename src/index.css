@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.orangegradint {
+  background: linear-gradient(to right, #ffeebb, #ffdc71);
+}
+
+.slick-dots .slick-active button:before {
+  font-size: 11px !important;
+  color: #007185 !important;
+  opacity: 1 !important;
+}
+
+.slick-dots li button:before {
+  color: #000 !important;
+  font-size: 11px !important;
+  opacity: 0.6 !important;
+}
+
+.slick-dots {
+  bottom: 5px !important;
+}
+
+/* .product_details .slick-dots {
+  bottom: -35px !important;
+}
+
+.product_details .slick-dots li {
+  width: 30px !important;
+  height: 30px !important;
+} */
+
+body {
+  overflow-y: auto;
+  overflow-x: hidden;
+
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
